@@ -1,0 +1,191 @@
+/*-----CSS RESET-----*/
+body {
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+    
+
+
+/*----main styling---*/
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+    background-color: #170D25;
+    font-family: "avenir next";
+    color: white;
+}
+            
+
+/* The sidebar menu */
+.sidenav {
+  height: 100%;
+  width: 30%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden; /* Disable horizontal scroll */
+    border-right: 1px solid white;
+  
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 30px 25px 20px 30px;
+  text-decoration: none;
+  font-size: 50px;
+  color: #ffff;
+  display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+	color:#B3A9D9;
+}
+
+/* Style page content */
+.main {
+	height: 100%;
+	overflow: auto;
+	position: fixed;
+	top: 0;
+	left: 30%; /* Same as the width of the sidebar */
+	padding-right: 30px;
+	padding-left: 30px;
+    font-size: 25px;
+}
+
+.monogram img{
+    max-height: 100%;
+    max-width: 100%;
+    border: none;
+    background-color: none;
+    padding-bottom: 100px;
+    padding-top: 40px;
+
+    
+}
+    
+    
+
+section {
+	display: flex;
+	align-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.section-content {
+	
+}
+
+h1 {
+    border-bottom: 1px solid white;
+	padding-top: 32px;
+    padding-bottom: 32px;
+	padding-left: 30px;
+	margin-top: 0;
+	margin-bottom: 0;
+    font-family: "heiti sc";
+    color: white;
+    font-size: 60px;
+	white-space: nowrap;
+}
+
+    
+
+#home img{
+    max-height: 20%;
+    max-width: 20%;
+    padding-left: 340px;
+    
+    
+    
+}
+
+#home {
+	min-height: 25%;
+    
+    
+}
+
+#project-intro {
+	min-height: 25%;
+}
+
+#examples {
+	min-height: 25%;
+}
+
+.image-grid {
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.image-grid a {
+	width: 30%;
+	margin-bottom: 32px;
+	margin-right: 3%;
+}
+
+.image-grid h2 {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    
+}
+
+img {
+	display: block;
+	width: 100%;
+    border: 10px solid white;
+    height: 190px;
+    
+}
+
+.Intro h1{
+    
+    color: #A51780;
+    
+    }
+.Intro {
+    
+    color: #A51780;
+}
+
+#about {
+	min-height: 25%;
+    background-color: #9E6CBF;
+    padding: 20px;
+}
+
+
+ul {
+  list-style-type: circle;
+}
+ 
+#contact {
+	min-height: 25%;
+    background-color: #B3A9D9;
+        padding: 20px;
+
+}
+
+.tumblr img{
+    border: none;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left: 400px;
+    
+    
+}
+    
+    
